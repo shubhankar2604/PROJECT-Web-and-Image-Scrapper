@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen as uReq
 import logging
 import pymongo
-logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
+logging.basicConfig(filename="imgscrapper.log" , level=logging.INFO)
 import os
 
 app = Flask(__name__)
